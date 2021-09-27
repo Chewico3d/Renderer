@@ -1,6 +1,6 @@
 #pragma once
 
-unsigned int* Create2fBuffer(float* Vertices, int Lenght) {
+unsigned int Create2fBuffer(float* Vertices, int Lenght) {
 
     unsigned int BufferID;
     glCreateBuffers(1, &BufferID);
@@ -10,6 +10,6 @@ unsigned int* Create2fBuffer(float* Vertices, int Lenght) {
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, Vertices);
 
-    return &BufferID;
+    return BufferID;
 
 }

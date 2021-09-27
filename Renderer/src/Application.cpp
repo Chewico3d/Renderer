@@ -13,7 +13,8 @@ int main(void)
 
     };
 
-    unsigned int* BufferID = Create2fBuffer(Verices, 6);
+    unsigned int BufferID = Create2fBuffer(Verices, 6);
+    unsigned int ProgramID = CreateProgram("Others/Shaders/SimpleShader.shader");
     
     /* Loop until the user closes the window */
     while (Itirenate(0,3));

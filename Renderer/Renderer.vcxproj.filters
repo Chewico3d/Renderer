@@ -32,5 +32,14 @@
     <ClInclude Include="src\Itinerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\ShaderMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParseShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Others\Shaders\SimpleShader.shader" />
   </ItemGroup>
 </Project>
