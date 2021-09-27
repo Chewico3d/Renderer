@@ -86,6 +86,12 @@
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Itinerator.h" />
+    <ClInclude Include="src\ObjectManager.h" />
+    <ClInclude Include="src\Initializer.h" />
+    <ClInclude Include="src\Renderer.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
