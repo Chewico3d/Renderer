@@ -10,6 +10,8 @@ unsigned int Create2fBuffer(float* Vertices, int Lenght) {
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, Vertices);
 
+    glBindBuffer()
+
     return BufferID;
 
 }
