@@ -38,6 +38,12 @@
     <ClInclude Include="src\ParseShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\ErrorOpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Others\Shaders\SimpleShader.shader" />

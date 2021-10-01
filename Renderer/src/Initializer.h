@@ -24,6 +24,8 @@ bool InitRenderer(int PixelX, int PixelY, const char* Name) {
     if (glewInit() != GLEW_OK)
         return false;
 
+    glfwSwapInterval(1);
+
     return true;
 
 }

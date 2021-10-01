@@ -87,12 +87,14 @@
     <ClCompile Include="src\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ErrorOpenGL.h" />
     <ClInclude Include="src\Itinerator.h" />
     <ClInclude Include="src\ObjectManager.h" />
     <ClInclude Include="src\Initializer.h" />
     <ClInclude Include="src\ParseShader.h" />
     <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\ShaderMaker.h" />
+    <ClInclude Include="src\ShaderModifier.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Others\Shaders\SimpleShader.shader" />

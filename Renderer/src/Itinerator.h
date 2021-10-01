@@ -10,7 +10,7 @@ bool Itirenate(int StartIndex, int Count) {
     /* Render here */
     glClear(GL_COLOR_BUFFER_BIT);
 
-    glDrawArrays(GL_TRIANGLES, StartIndex, Count);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
 
     /* Swap front and back buffers */
     glfwSwapBuffers(window);
