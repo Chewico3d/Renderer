@@ -18,10 +18,10 @@ unsigned int CreateShader(int ShaderType, const std::string& ShaderPrgram) {
 		glGetShaderInfoLog(ShaderID, Lenght, &Lenght, message);
 		std::cout << ((ShaderType == GL_VERTEX_SHADER) ? "Vertex Shader error : \n " : "Fragment Shader error : \n ") << message << std::endl;
 
-	}
+		std::cout << ((ShaderType == GL_VERTEX_SHADER) ? "Vertex Shader : \n " : "Fragment Shader : \n ");
+		std::cout << ShaderPrgram << std::endl;
 
-	std::cout << ((ShaderType == GL_VERTEX_SHADER) ? "Vertex Shader : \n " : "Fragment Shader : \n ");
-	std::cout << ShaderPrgram << std::endl;
+	}
 
 	return ShaderID;
 

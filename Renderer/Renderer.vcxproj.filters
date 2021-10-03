@@ -18,30 +18,54 @@
     <ClCompile Include="src\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Classes\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Classes\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Classes\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Classes\VertexBufferLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Initializer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ObjectManager.h">
+    <ClInclude Include="OFFSET\ObjectManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Renderer.h">
+    <ClInclude Include="src\Classes\Header\Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Itinerator.h">
+    <ClInclude Include="OFFSET\Itinerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ShaderMaker.h">
+    <ClInclude Include="OFFSET\ShaderMaker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ParseShader.h">
+    <ClInclude Include="OFFSET\ParseShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ErrorOpenGL.h">
+    <ClInclude Include="OFFSET\ErrorOpenGL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ShaderModifier.h">
+    <ClInclude Include="OFFSET\ShaderModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Classes\Header\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Classes\Header\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Classes\Header\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Classes\Header\VertexBufferLayout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

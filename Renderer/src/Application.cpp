@@ -1,4 +1,6 @@
-#include "Renderer.h"
+#include "Classes/Header/IndexBuffer.h"
+#include "Classes/Header/VertexBuffer.h"
+#include "Initializer.h"
 
 int main(void)
 {
@@ -13,31 +15,23 @@ int main(void)
          .5f, -.5f
 
     };
-
     unsigned int* Indexs = new unsigned int[6]{
         0,1,2,
         2,1,3
 
     };
 
-    unsigned int BufferID = Create2fBuffer(Verices, 8);
-    unsigned int IndexID = CreateIndexBuffer(Indexs, 6);
-    unsigned int ProgramID = CreateProgram("Others/Shaders/SimpleShader.shader");
+    {
 
-    SetUniform4f("u_Color", ProgramID, 1, .4f, .3f);
-    /* Loop until the user closes the window */
+        VertexBuffer VB(Verices, 4 * 2 * sizeof(float));
+        IndexBuffer IB(Indexs, 6);
+        IB.Bind();
 
-    float Val = 0;
-    float Increment = 0.02f;
-    while (Itirenate(0, 3)) {
-        if (Val > 1 || Val < 0)
-            Increment *= -1;
+        float Val = 0;
+        float Increment = 0.02f;
 
-        Val += Increment;
-        SetUniform4f("u_Color", ProgramID, Val, .4f, 0);
 
     }
-
 
     glfwTerminate();
     return 0;

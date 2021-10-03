@@ -84,17 +84,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Classes\IndexBuffer.cpp" />
     <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\Classes\VertexBuffer.cpp" />
+    <ClCompile Include="src\Classes\VertexArray.cpp" />
+    <ClCompile Include="src\Classes\VertexBufferLayout.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ErrorOpenGL.h" />
-    <ClInclude Include="src\Itinerator.h" />
-    <ClInclude Include="src\ObjectManager.h" />
+    <ClInclude Include="src\Classes\Header\IndexBuffer.h" />
+    <ClInclude Include="OFFSET\ErrorOpenGL.h" />
+    <ClInclude Include="OFFSET\Itinerator.h" />
+    <ClInclude Include="OFFSET\ObjectManager.h" />
     <ClInclude Include="src\Initializer.h" />
-    <ClInclude Include="src\ParseShader.h" />
-    <ClInclude Include="src\Renderer.h" />
-    <ClInclude Include="src\ShaderMaker.h" />
-    <ClInclude Include="src\ShaderModifier.h" />
+    <ClInclude Include="OFFSET\ParseShader.h" />
+    <ClInclude Include="src\Classes\Header\Renderer.h" />
+    <ClInclude Include="OFFSET\ShaderMaker.h" />
+    <ClInclude Include="OFFSET\ShaderModifier.h" />
+    <ClInclude Include="src\Classes\Header\VertexBuffer.h" />
+    <ClInclude Include="src\Classes\Header\VertexArray.h" />
+    <ClInclude Include="src\Classes\Header\VertexBufferLayout.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Others\Shaders\SimpleShader.shader" />

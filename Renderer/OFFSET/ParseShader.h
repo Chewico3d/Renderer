@@ -38,7 +38,6 @@ ShaderString ParseShader(const std::string& filePath) {
 
 			if (state != State::None)
 				SS[(int)state] << Line << '\n';
-			std::cout << (int)state;
 
 		}
 
